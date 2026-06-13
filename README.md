@@ -1,6 +1,3 @@
-# AI-assignment4_TODO-list-WEB
-AI assignment4 todo list website
-
 # Focus-Todo
 
 ## 📌 Project Overview
@@ -18,10 +15,14 @@ Focus-Todo is an intuitive, distraction-free To-Do List web application specific
 Since this is a vanilla HTML/CSS/JS project, running it locally is incredibly simple:
 
 1. Clone this repository to your local machine:
-   ```bash
-   git clone [https://github.com/](https://github.com/)[Your-GitHub-Username]/[Your-Repo-Name].git
+   `git clone https://github.com/[Your-GitHub-Username]/[Your-Repo-Name].git`
 2. Navigate to the project folder.
+3. Simply double-click the `index.html` file to open it in your default web browser.
+4. *(Optional)* For a better development experience, open the folder in VS Code and use the "Live Server" extension.
 
-3. Simply double-click the index.html file to open it in your default web browser.
+## 🌐 Deployment URL
+The final website has been deployed online using Vercel. You can access it here:
+**[여기에 본인의 Vercel 배포 URL 링크를 적어주세요. 예: https://focus-todo-xxx.vercel.app]**
 
-4. (Optional) For a better development experience, open the folder in VS Code and use the "Live Server" extension.
+---
+*This project was developed as part of the Introduction to AI Programming (01) course assignment (2026 Spring).*
