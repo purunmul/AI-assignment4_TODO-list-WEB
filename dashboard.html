@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus-Todo | Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="main-nav">
+            <a href="index.html" class="logo">Focus-Todo</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="dashboard.html" class="active">Dashboard</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container dashboard-container">
+        <div class="dashboard-grid">
+            
+            <div class="dashboard-card" id="stats-card">
+                <h2 class="card-title">Statistics</h2>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-value" id="total-tasks-stat">0</span>
+                        <span class="stat-label">Total Tasks</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value" id="completed-tasks-stat">0</span>
+                        <span class="stat-label">Completed</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value" id="remaining-tasks-stat">0</span>
+                        <span class="stat-label">Remaining</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dashboard-card" id="progress-card">
+                <h2 class="card-title">Overall Progress</h2>
+                <div id="progress-container">
+                    <div id="progress-bar-container">
+                        <div id="progress-bar"></div>
+                    </div>
+                    <p id="progress-text">0%</p>
+                </div>
+            </div>
+
+            <div class="dashboard-card" id="task-manager-card">
+                <h2 class="card-title">Task Manager</h2>
+                <form id="task-form">
+                    <input type="text" id="task-input" placeholder="e.g., Submit AI Programming Assignment" required>
+                    <input type="date" id="due-date-input">
+                    <button type="submit" class="btn">Add Task</button>
+                </form>
+                <div id="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="active">Active</button>
+                    <button class="filter-btn" data-filter="completed">Completed</button>
+                </div>
+                <ul id="task-list"></ul>
+                <p id="empty-state-message" class="empty-state" style="display: none;"></p>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
