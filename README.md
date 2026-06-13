@@ -20,3 +20,8 @@ Since this is a vanilla HTML/CSS/JS project, running it locally is incredibly si
 1. Clone this repository to your local machine:
    ```bash
    git clone [https://github.com/](https://github.com/)[Your-GitHub-Username]/[Your-Repo-Name].git
+2. Navigate to the project folder.
+
+3. Simply double-click the index.html file to open it in your default web browser.
+
+4. (Optional) For a better development experience, open the folder in VS Code and use the "Live Server" extension.
