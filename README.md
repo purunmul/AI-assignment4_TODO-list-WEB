@@ -22,7 +22,7 @@ Since this is a vanilla HTML/CSS/JS project, running it locally is incredibly si
 
 ## 🌐 Deployment URL
 The final website has been deployed online using Vercel. You can access it here:
-**[여기에 본인의 Vercel 배포 URL 링크를 적어주세요. 예: https://focus-todo-xxx.vercel.app]**
+https://todo-9km8kxbre-gun-kim-s-projects.vercel.app
 
 ---
 *This project was developed as part of the Introduction to AI Programming (01) course assignment (2026 Spring).*
